@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- tailwindCSS setup -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/2c4593a4a7.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <title>Brikho</title>
+</head>
+<body class="fraunces-font">
+    <!-- header section -->
+    <header>
+        <nav class="px-20 flex justify-between items-center">
+            <!-- logo + site name -->
+            <a href="#" class="flex justify-be items-center">
+                <img class="w-20 h-20" src="./assets/brikkhoIcon.png" alt="brikkhoIcon">
+                <h1 class="-ml-4 text-2xl font-bold dark_green hover:underline">Brikkho</h1>
+            </a>
+            <!-- nav links -->
+            <div>
+                <ul class="flex gap-4 dark_green text-xl font-semibold">
+                    <li><a class="hover:underline" href="#">Home</a></li>
+                    <li><a class="hover:underline" href="#">Shop</a></li>
+                    <li><a class="hover:underline" href="#">Plant Care</a></li>
+                    <li><a class="hover:underline" href="#">About</a></li>
+                    <li><a class="hover:underline" href="#">Contact</a></li>
+                </ul>
+            </div>
+            <!-- icons + btn -->
+            <div class="flex gap-4 justify-center items-center">
+                <i class="flex justify-center items-center bg-[#E6FFE6] dark_green p-2 rounded-md cursor-pointer fa-solid fa-magnifying-glass"></i>
+                <i class="flex justify-center items-center bg-[#E6FFE6] dark_green p-2 rounded-md cursor-pointer fa-solid fa-shop"></i>
+                <div>
+                    <button class="bg-[#375437] text-[#f5f0e6] p-2 rounded-md">Shop Now</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+</body>
+</html>
